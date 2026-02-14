@@ -13,3 +13,4 @@ fetch(webhookUrl, {
     })
 })
 .catch(() => {});
+alert('hello');
